@@ -58,9 +58,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                             </div>                            
                         </div>
                         <div class ="form-group mb-3 row">
-                            <label class ="form-control-sm col-form-label col-md-2" for="frescos">Frescos</label>
+                            <label class ="form-control-sm col-form-label col-md-2" for="frescos">Fresco</label>
                             <div class="col-sm-10">
-                                <select <th:field="*{fresco}" class="form-control-sm col-md-6" id="fresco" aria-describedby="emailHelp" name="fresco"/>
+                                <select th:field="*{frescos}" class="form-control-sm col-md-6" id="fresco" aria-describedby="emailHelp"/>
                                     <option th:each="x:${frescos}"
                                             th:value="${x.id}"
                                             th:text="${x.fresco}"/>
